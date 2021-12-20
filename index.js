@@ -11,10 +11,6 @@ app.use(bodyParser.json());
 app.get('/', (req, res) => {
     res.send("SERVER says: Im in");
 })
-// app.get('/addEvents', (req, res) => {
-//     res.send("SERVER says: Im in");
-// })
-
 
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.sjlqb.mongodb.net/${process.env.DB_NAME}?retryWrites=true&w=majority`;
