@@ -3,7 +3,7 @@ import { Form, Row, Col, Container } from 'react-bootstrap';
 const Footer = () => {
     return (
         <>
-            <footer className="bg-dark text-center text-white mt-5">
+            <footer className="bg-dark text-center text-white position-fixed bottom-0 w-100">
                 <Container className="p-4">
                     <section className="mb-4">
                         <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i className="fab fa-facebook-f"></i></a>
